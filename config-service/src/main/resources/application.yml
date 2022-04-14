@@ -9,5 +9,6 @@ spring:
          uri: https://github.com/Alexoner03/spring-microservices
          search-paths: config-data
       enabled: true
+      name: config-service
   application:
       name: config-service
