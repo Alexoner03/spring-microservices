@@ -1,0 +1,31 @@
+server
+  port : 8080
+judoka
+  service
+    url : http://localhost:8001
+medal
+  service
+    url : http://localhost:8002
+sponsor
+  service
+    url : http://localhost:8003
+
+spring
+  cloud
+    gateway
+      discovery
+        locator
+          enabled : true
+      routes :
+        - id : judoka-service
+          uri : http://localhost:8001
+          predicates:
+            - Path=/judokas/**
+        - id: medal-service
+            uri: http://localhost:8002
+            predicates:
+              - Path=/medals/**
+        - id: sponsors-service
+            uri: http://localhost:8003
+            predicates:
+              - Path=/sponsors/**

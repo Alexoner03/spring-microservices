@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/api-gateway">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/config-service">
       <ProjectState />
     </projectState>
@@ -104,13 +109,16 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-service/build.gradle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-files" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.36018413" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alexander\Documents\Proyectos\spring-boot-microservices\config-files" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.aortiz.judokaservice.entities" />
     </key>
@@ -151,6 +159,13 @@
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
       <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api-gateway.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aortiz.apigateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +211,7 @@
       <item itemvalue="Spring Boot.MedalServiceApplication" />
       <item itemvalue="Spring Boot.SponsorServiceApplication" />
       <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -220,7 +236,7 @@
       <workItem from="1649920112972" duration="67000" />
       <workItem from="1649920458981" duration="4038000" />
       <workItem from="1649924563860" duration="226000" />
-      <workItem from="1649924804953" duration="2901000" />
+      <workItem from="1649924804953" duration="3693000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1649923622165</created>
@@ -278,7 +294,28 @@
       <option name="project" value="LOCAL" />
       <updated>1649927670521</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="initial Commit">
+      <created>1649927744388</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1649927744388</updated>
+    </task>
+    <task id="LOCAL-00010" summary="initial Commit">
+      <created>1649927827660</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649927827660</updated>
+    </task>
+    <task id="LOCAL-00011" summary="initial Commit">
+      <created>1649927853575</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649927853575</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
