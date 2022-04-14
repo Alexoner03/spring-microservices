@@ -7,7 +7,7 @@ spring:
        git:
          default-label: master
          uri: https://github.com/Alexoner03/spring-microservices
-         search-paths: config-data
+         search-paths: config-files
       enabled: true
       name: config-service
   application:

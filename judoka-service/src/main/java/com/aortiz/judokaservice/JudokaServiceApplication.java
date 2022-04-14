@@ -11,5 +11,4 @@ public class JudokaServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(JudokaServiceApplication.class, args);
     }
-
 }
