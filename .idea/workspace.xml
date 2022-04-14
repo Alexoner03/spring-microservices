@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/JudokaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/JudokaServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-files/judoka-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-files/judoka-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/feign/clients/MedalFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/feign/clients/MedalFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/feign/clients/SponsorFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/judoka-service/src/main/java/com/aortiz/judokaservice/feign/clients/SponsorFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor-service/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor-service/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +223,7 @@
       <workItem from="1649920112972" duration="67000" />
       <workItem from="1649920458981" duration="4038000" />
       <workItem from="1649924563860" duration="226000" />
-      <workItem from="1649924804953" duration="2359000" />
+      <workItem from="1649924804953" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1649923622165</created>
@@ -265,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649926753476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="initial Commit">
+      <created>1649927197985</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1649927197985</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

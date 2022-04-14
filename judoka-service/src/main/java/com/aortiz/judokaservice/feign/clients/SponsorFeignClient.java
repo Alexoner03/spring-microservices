@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient(name = "sponsor-service", url = "http://localhost:8003")
+@FeignClient(name = "sponsor-service", url = "${sponsor.service.url}")
 public interface SponsorFeignClient {
 
     @GetMapping("/sponsors/judoka/{id}")
