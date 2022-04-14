@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit">
-      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/aortiz/apigateway/ApiGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/aortiz/apigateway/ServletInitializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/bootstrap.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/aortiz/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +225,7 @@
       <workItem from="1649920112972" duration="67000" />
       <workItem from="1649920458981" duration="4038000" />
       <workItem from="1649924563860" duration="226000" />
-      <workItem from="1649924804953" duration="4371000" />
+      <workItem from="1649924804953" duration="5104000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1649923622165</created>
@@ -349,7 +339,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649929115679</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="initial Commit">
+      <created>1649929253062</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649929253062</updated>
+    </task>
+    <task id="LOCAL-00018" summary="initial Commit">
+      <created>1649929326960</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1649929326960</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
