@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit">
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/application.yml" afterDir="false" />
-    </list>
+    <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -219,7 +217,7 @@
       <workItem from="1649920112972" duration="67000" />
       <workItem from="1649920458981" duration="4038000" />
       <workItem from="1649924563860" duration="226000" />
-      <workItem from="1649924804953" duration="1470000" />
+      <workItem from="1649924804953" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="initial Commit">
       <created>1649923622165</created>
@@ -242,7 +240,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649926094203</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial Commit">
+      <created>1649926295149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649926295149</updated>
+    </task>
+    <task id="LOCAL-00005" summary="initial Commit">
+      <created>1649926442236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649926442236</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
