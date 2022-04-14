@@ -18,6 +18,8 @@ dependencies {
     implementation 'javax.persistence:javax.persistence-api'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.cloud:spring-cloud-starter-openfeign:3.1.1'
+    implementation 'io.pivotal.spring.cloud:spring-cloud-services-starter-config-client:3.4.0'
+    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap:3.1.1'
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'mysql:mysql-connector-java'
     providedRuntime 'org.springframework.boot:spring-boot-starter-tomcat'

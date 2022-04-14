@@ -4,14 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="" />
+    <list default="true" id="6f058f69-fa8e-45fa-b058-0d672979a29e" name="Changes" comment="initial Commit">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/judoka-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/medal-service.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-files/sponsor-service.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/judoka-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/judoka-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/judoka-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/judoka-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medal-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/medal-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medal-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/medal-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sponsor-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sponsor-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/config-service">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/judoka-service">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/judoka-service/config-server">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/judoka-service/config-service">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/medal-service">
@@ -30,25 +54,15 @@
         <task path="$PROJECT_DIR$/medals-services">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/judoka-service/config-service">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/config-service">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="medals-services" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="medals-services" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="medals-services" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -62,6 +76,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -83,6 +100,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="27mBY28WcpPCqqEK0wCeA3fPqLW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -95,12 +113,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sponsor-service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config-service/build.gradle" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.36018413" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -147,6 +167,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aortiz.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.aortiz.config-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aortiz.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-service.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.aortiz.configservice.ConfigServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JudokaServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="judoka-service.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.aortiz.judokaservice.JudokaServiceApplication" />
@@ -174,6 +215,9 @@
       <item itemvalue="Spring Boot.JudokaServiceApplication" />
       <item itemvalue="Spring Boot.MedalServiceApplication" />
       <item itemvalue="Spring Boot.SponsorServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServiceApplication (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -195,11 +239,36 @@
       <workItem from="1649919900516" duration="60000" />
       <workItem from="1649919974227" duration="128000" />
       <workItem from="1649920112972" duration="67000" />
-      <workItem from="1649920458981" duration="2901000" />
+      <workItem from="1649920458981" duration="4038000" />
+      <workItem from="1649924563860" duration="226000" />
+      <workItem from="1649924804953" duration="572000" />
     </task>
+    <task id="LOCAL-00001" summary="initial Commit">
+      <created>1649923622165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1649923622165</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial Commit" />
   </component>
 </project>
