@@ -1,20 +1,20 @@
-server
+server :
   port : 8080
-judoka
-  service
+judoka :
+  service :
     url : http://localhost:8001
-medal
-  service
+medal :
+  service :
     url : http://localhost:8002
-sponsor
-  service
+sponsor :
+  service :
     url : http://localhost:8003
 
-spring
-  cloud
-    gateway
-      discovery
-        locator
+spring :
+  cloud :
+    gateway :
+      discovery :
+        locator :
           enabled : true
       routes :
         - id : judoka-service
